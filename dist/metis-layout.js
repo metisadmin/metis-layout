@@ -43,7 +43,7 @@
 
   function respondSide() {
     var viewPort = getViewPortWidth();
-    (viewPort < 768) ? closeSide(): openSide();
+    (viewPort < 768) ? closeSide() : openSide();
   }
 
   window.onload = respondSide();
