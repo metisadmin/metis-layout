@@ -1,0 +1,35 @@
+{
+  "name": "metis-layout",
+  "version": "0.0.1",
+  "description": "basic admin layout",
+  "main": "Brocfile.js",
+  "scripts": {
+    "test": "broccoli serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metisadmin/metis-layout"
+  },
+  "keywords": [
+    "admin",
+    "layout"
+  ],
+  "author": "Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/metisadmin/metis-layout/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/metisadmin/metis-layout/issues"
+  },
+  "homepage": "https://github.com/metisadmin/metis-layout",
+  "devDependencies": {
+    "broccoli": "^0.16.3",
+    "broccoli-concat": "0.0.13",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-less-single": "^0.4.0",
+    "broccoli-merge-trees": "^0.2.1",
+    "less-plugin-autoprefix": "^1.4.1",
+    "read-package-json": "^2.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "metis-layout",
+  "version": "0.0.1",
+  "homepage": "https://github.com/metisadmin/metis-layout",
+  "authors": [
+    "Osman Nuri Okumuş <onokumus@gmail.com>"
+  ],
+  "description": "basic admin layout",
+  "main": [
+    "dist/metis-layout.css",
+    "dist/metis-layout.js"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "admin",
+    "layout",
+    "flexbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public",
+    "tmp"
+  ]
+}
