@@ -6,8 +6,4 @@
 * Licensed under MIT
 */
 
-(function(window) {
-  'use strict';
-
-  window.console.log('metis-layout loaded...');
-})(this);
+.Top{background:#ddd}.Footer{background:#333;color:#666}

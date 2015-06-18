@@ -19,19 +19,6 @@
 .Main {
   flex: 1;
 }
-.Sidebar {
-  width: 100%;
-  transition: all 0.3s ease-out;
-  @media (min-width: 768px) {
-    width: @panelDimension;
-  }
-  &.is-collapsed {
-    transform: translateX(-100%);
-    width: 0;
-    height: 0;
-    visibility: hidden;
-  }
-}
 .Footer {
   height: @footerHeight;
 }
