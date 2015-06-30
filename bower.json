@@ -1,6 +1,6 @@
 {
   "name": "metis-layout",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "homepage": "https://github.com/metisadmin/metis-layout",
   "authors": [
     "Osman Nuri Okumuş <onokumus@gmail.com>"
@@ -28,6 +28,6 @@
     "tmp"
   ],
   "dependencies": {
-    "metis-base": "~0.0.1"
+    "metis-base": "~0.1.0"
   }
 }

@@ -1,5 +1,5 @@
 /**
-* metis-layout v0.0.3
+* metis-layout v0.1.0
 * Homepage : https://github.com/metisadmin/metis-layout
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015
