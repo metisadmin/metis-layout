@@ -13,6 +13,7 @@ var funnel = require('broccoli-funnel');
 var compileLess = require('broccoli-less-single');
 var mergeTrees = require('broccoli-merge-trees');
 var uglifyJavaScript = require('broccoli-uglify-js');
+var jshintTree = require('broccoli-jshint');
 
 var LessPluginAutoPrefix = require('less-plugin-autoprefix');
 var autoprefixPlugin = new LessPluginAutoPrefix({
@@ -25,6 +26,7 @@ var projectFiles = funnel('app');
 var scriptFiles = funnel(projectFiles, {
   srcDir: 'scripts'
 });
+var lintedScripts = jshintTree(scriptFiles);
 var lessFiles = funnel(projectFiles, {
   srcDir: 'styles'
 });
@@ -105,6 +107,7 @@ var uglifyScriptsBanner = concat(uglifyScripts, {
 module.exports = mergeTrees([
   bowerFiles,
   publicFolder,
+  lintedScripts,
   concatenatedLess,
   concatenatedLessMin,
   themeConcatenatedLess,
