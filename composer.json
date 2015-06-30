@@ -1,0 +1,21 @@
+{
+  "name": "metisadmin/metis-layout",
+  "description": "metis admin layout",
+  "keywords": [
+    "admin",
+    "layout"
+  ],
+  "homepage": "https://github.com/metisadmin/metis-layout",
+  "authors": [{
+    "name": "Osman Nuri Okumus",
+    "email": "onokumus@gmail.com",
+    "homepage": "http://onokumus.com"
+  }],
+  "support": {
+    "issues": "https://github.com/metisadmin/metis-layout/issues"
+  },
+  "license": "MIT",
+  "suggest": {
+    "metisadmin/metis-base": ">=0.1.0"
+  }
+}
