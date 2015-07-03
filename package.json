@@ -1,6 +1,6 @@
 {
   "name": "metis-layout",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "basic admin layout",
   "main": "Brocfile.js",
   "scripts": {

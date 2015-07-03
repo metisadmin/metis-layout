@@ -1,23 +1,25 @@
 .Wrap {
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   position: relative;
-  flex-flow: column;
-  overflow: hidden;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.Top,
+.Footer {
+  flex: none;
 }
 .Top {
-
+  z-index: 1000;
 }
 .Content {
   position: relative;
   transition: all 0.3s ease-out;
-  @media only screen and (min-width: 768px) {
-    flex: 1;
-    display: flex;
-  }
+  flex: 1 1 auto;
 }
 .Main {
-  flex: 1;
+  flex: 1 1 auto;
+  position: relative;
 }
 .Footer {
   height: @footerHeight;
