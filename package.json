@@ -1,12 +1,12 @@
 {
   "name": "metis-layout",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "basic admin layout",
   "main": "Brocfile.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "create": "broccoli build dist",
-    "serve": "broccoli serve",
+    "start": "broccoli serve",
     "build": "npm run clean && npm run create"
   },
   "repository": {
