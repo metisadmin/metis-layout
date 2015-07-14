@@ -1,5 +1,5 @@
 /**
-* metis-layout v0.1.4
+* metis-layout v0.1.5
 * Homepage : https://github.com/metisadmin/metis-layout
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015
@@ -12,6 +12,11 @@
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.wrap.is-vertical {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -23,7 +28,7 @@
           flex: none;
 }
 .top {
-  z-index: 1000;
+  z-index: 100;
 }
 .content {
   position: relative;
@@ -35,6 +40,17 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+.is-vertical .content {
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 .main {
   -webkit-flex: 1 1 auto;

@@ -2,14 +2,17 @@
   height: 100%;
   display: flex;
   position: relative;
-  flex-direction: column;
+  flex-flow: row nowrap;
+  &.is-vertical {
+    flex-direction: column;
+  }
 }
 .top,
 .footer {
   flex: none;
 }
 .top {
-  z-index: 1000;
+  z-index: 100;
 }
 .content {
   position: relative;
@@ -17,6 +20,11 @@
   flex: 1 0 auto;
   width: 100%;
   display: flex;
+  flex-flow: column nowrap;
+  .is-vertical & {
+    flex-direction: row;
+    flex: 1 1 auto;
+  }
 }
 .main {
   flex: 1 1 auto;
