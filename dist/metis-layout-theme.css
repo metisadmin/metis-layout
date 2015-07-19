@@ -1,5 +1,5 @@
 /**
-* metis-layout v0.1.5
+* metis-layout v0.1.6
 * Homepage : https://github.com/metisadmin/metis-layout
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015
@@ -9,7 +9,14 @@
 .top:not([class*="bg-"]) {
   background: #ddd;
 }
-.Footer:not([class*="bg-"]) {
+.footer {
+  height: 48px;
+}
+.footer:not([class*="bg-"]) {
   background: #333;
   color: #666;
+}
+.sidebar:not([class*="bg-"]) {
+  background: #eee;
+  border-right: 1px solid #f9f9f9;
 }

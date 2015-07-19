@@ -1,35 +1,55 @@
-.wrap {
+html,
+body {
   height: 100%;
+}
+body {
   display: flex;
-  position: relative;
-  flex-flow: row nowrap;
-  &.is-vertical {
-    flex-direction: column;
-  }
+  flex-direction: column;
+}
+.wrap {
+  display: flex;
+  width: 100%;
+  flex: 1 0 auto;
 }
 .top,
 .footer {
-  flex: none;
-}
-.top {
-  z-index: 100;
-}
-.content {
-  position: relative;
-  transition: all 0.3s ease-out;
-  flex: 1 0 auto;
-  width: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  .is-vertical & {
-    flex-direction: row;
-    flex: 1 1 auto;
-  }
+  flex-shrink: 0;
 }
 .main {
-  flex: 1 1 auto;
-  position: relative;
+  display: flex;
 }
-.footer {
-  height: @footerHeight;
+.sidebar {
+  width: @sidebarWidth;
+}
+
+/**
+* Layout 1
+* see index.html
+*/
+.wrap {
+  flex-direction: column;
+}
+.main {
+  flex: 1 0 auto;
+  flex-direction: row;
+}
+.content {
+  flex: 1 1 0;
+}
+
+/**
+* Layout 2
+* see l2.html
+*/
+.layout-2 {
+  .wrap {
+    flex-direction: row;
+  }
+  .main {
+    flex-direction: column;
+    flex: 1 1 0;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
 }

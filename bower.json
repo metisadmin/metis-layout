@@ -27,6 +27,6 @@
     "tmp"
   ],
   "dependencies": {
-    "metis-base": "~0.1.3"
+    "metis-base": "~0.1.5"
   }
 }

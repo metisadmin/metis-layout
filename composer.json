@@ -16,6 +16,6 @@
   },
   "license": "MIT",
   "suggest": {
-    "metisadmin/metis-base": ">=0.1.3"
+    "metisadmin/metis-base": ">=0.1.5"
   }
 }

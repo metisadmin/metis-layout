@@ -1,7 +1,19 @@
+@import "variable";
+
 .top:not([class*="bg-"]) {
   background: #ddd;
 }
-.Footer:not([class*="bg-"]) {
+
+.footer {
+  height: @footerHeight;
+}
+
+.footer:not([class*="bg-"]) {
   background: #333;
   color: #666;
+}
+
+.sidebar:not([class*="bg-"]) {
+  background: #eee;
+  border-right: 1px solid #f9f9f9;
 }
