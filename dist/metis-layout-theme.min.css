@@ -1,9 +1,9 @@
 /**
-* metis-layout v0.1.7
+* metis-layout v0.2.0
 * Homepage : https://github.com/metisadmin/metis-layout
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015
 * Licensed under MIT
 */
 
-.top:not([class*="bg-"]){background:#ddd}.footer{height:48px}.footer:not([class*="bg-"]){background:#333;color:#666}.sidebar:not([class*="bg-"]){background:#eee;border-right:1px solid #f9f9f9}
+.top:not([class*="bg-"]){background:#fff;border-bottom:1px solid #e7e7e7}.footer:not([class*="bg-"]){background:#fff;border-top:1px solid #e7e7e7;color:#666}.sidebar:not([class*="bg-"]){background:#fff;border-right:1px solid #e7e7e7}.sidebar:not(.is-open){display:none}

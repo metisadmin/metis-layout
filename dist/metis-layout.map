@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"sourcesContent":["$(function() {\n\n  if ($(window).width() <= 544) {\n    $('.sidebar').removeClass('is-open');\n  } else {\n    $('.sidebar').addClass('is-open');\n  }\n\n});\n"],"names":[],"mappings":";;;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;","file":"metis-layout.js"}

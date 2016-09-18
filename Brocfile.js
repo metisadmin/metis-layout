@@ -111,7 +111,7 @@ var tree = [
   uglifyScriptsBanner
 ];
 
-if (process.env.BROCCOLI_ENV !== 'production') {
+if (process.env.BROCCOLI_ENV === 'development') {
   tree.push(bowerFiles, publicFolder);
 }
 

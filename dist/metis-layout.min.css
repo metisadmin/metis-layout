@@ -1,9 +1,9 @@
 /**
-* metis-layout v0.1.7
+* metis-layout v0.2.0
 * Homepage : https://github.com/metisadmin/metis-layout
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015
 * Licensed under MIT
 */
 
-html,body{height:100%}body{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.wrap{display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}.top,.footer{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}.main{display:-webkit-flex;display:-ms-flexbox;display:flex}.sidebar{width:250px}.wrap{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.main{-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.content{-webkit-flex:1 1 0;-ms-flex:1 1 0;flex:1 1 0}.layout-2 .wrap{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.layout-2 .main{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1 1 0;-ms-flex:1 1 0;flex:1 1 0}.layout-2 .content{-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}
+html,body{height:100%}body{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}.wrap{display:-ms-flexbox;display:flex;width:100%;-ms-flex:1 0 auto;flex:1 0 auto}.top,.footer{-ms-flex-negative:0;flex-shrink:0}.main{display:-ms-flexbox;display:flex}.sidebar{width:250px}.wrap{-ms-flex-direction:column;flex-direction:column}.main{-ms-flex:1 0 auto;flex:1 0 auto;-ms-flex-direction:row;flex-direction:row}.content{-ms-flex:1 1 0;flex:1 1 0}.layout-2 .wrap{-ms-flex-direction:row;flex-direction:row}.layout-2 .main{-ms-flex-direction:column;flex-direction:column;-ms-flex:1 1 0;flex:1 1 0}.layout-2 .content{-ms-flex:1 0 auto;flex:1 0 auto}

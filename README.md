@@ -1,6 +1,6 @@
 # metis-layout
 
-[![NPM version](https://badge.fury.io/js/metis-layout.svg)](http://badge.fury.io/js/metis-layout) [![Bower version](https://badge.fury.io/bo/metis-layout.svg)](http://badge.fury.io/bo/metis-layout) [![PHP version](https://badge.fury.io/ph/metisadmin%2Fmetis-layout.svg)](http://badge.fury.io/ph/metisadmin%2Fmetis-layout)  [![Build Status](https://travis-ci.org/metisadmin/metis-layout.svg)](https://travis-ci.org/metisadmin/metis-layout) 
+[![NPM version](https://badge.fury.io/js/metis-layout.svg)](http://badge.fury.io/js/metis-layout) [![Bower version](https://badge.fury.io/bo/metis-layout.svg)](http://badge.fury.io/bo/metis-layout) [![PHP version](https://badge.fury.io/ph/metisadmin%2Fmetis-layout.svg)](http://badge.fury.io/ph/metisadmin%2Fmetis-layout)  [![Build Status](https://travis-ci.org/metisadmin/metis-layout.svg)](https://travis-ci.org/metisadmin/metis-layout)
 
 > basic admin layout
 
@@ -37,7 +37,7 @@ git clone https://github.com/metisadmin/metis-layout.git
 cd metis-layout
 npm install
 bower install
-npm start
+BROCCOLI_ENV=development broccoli serve
 ```
 
 ### Building
@@ -47,7 +47,6 @@ npm install -g broccoli-cli
 git clone https://github.com/metisadmin/metis-layout.git
 cd metis-layout
 npm install
-bower install
 npm run build
 ```
 

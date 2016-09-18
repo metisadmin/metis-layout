@@ -1,12 +1,15 @@
 {
   "name": "metis-layout",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "basic admin layout",
-  "main": "Brocfile.js",
+  "main": "dist/metis-layout.js",
+  "style": "dist/metis-layout.css",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "clean": "rm -rf ./dist",
-    "create": "BROCCOLI_ENV=production broccoli build dist",
-    "start": "broccoli serve",
+    "clean": "rimraf ./dist",
+    "create": "broccoli build dist",
     "build": "npm run clean && npm run create"
   },
   "repository": {
@@ -24,13 +27,13 @@
   },
   "homepage": "https://github.com/metisadmin/metis-layout",
   "devDependencies": {
-    "broccoli": "^0.16.4",
-    "broccoli-concat": "0.0.13",
-    "broccoli-funnel": "^0.2.3",
-    "broccoli-jshint": "^0.5.6",
-    "broccoli-less-single": "^0.4.0",
-    "broccoli-merge-trees": "^0.2.2",
-    "broccoli-uglify-js": "^0.1.3",
+    "broccoli": "^0.16.9",
+    "broccoli-concat": "2.3.4",
+    "broccoli-funnel": "^1.0.6",
+    "broccoli-jshint": "^2.1.0",
+    "broccoli-less-single": "^0.6.3",
+    "broccoli-merge-trees": "^1.1.4",
+    "broccoli-uglify-js": "^0.2.0",
     "less-plugin-autoprefix": "^1.4.2"
   }
 }

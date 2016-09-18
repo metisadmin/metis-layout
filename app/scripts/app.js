@@ -1,5 +1,9 @@
-(function(window) {
-  'use strict';
+$(function() {
 
-  window.console.log('metis-layout loaded...');
-})(this);
+  if ($(window).width() <= 544) {
+    $('.sidebar').removeClass('is-open');
+  } else {
+    $('.sidebar').addClass('is-open');
+  }
+
+});

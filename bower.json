@@ -27,6 +27,10 @@
     "tmp"
   ],
   "dependencies": {
-    "metis-base": "~0.1.6"
+    "metis-base": "^0.1.6",
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "normalize-css": "^4.2.0"
   }
 }

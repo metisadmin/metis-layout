@@ -1,19 +1,21 @@
 @import "variable";
 
 .top:not([class*="bg-"]) {
-  background: #ddd;
-}
-
-.footer {
-  height: @footerHeight;
+  background: #fff;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .footer:not([class*="bg-"]) {
-  background: #333;
+  background: #fff;
+  border-top: 1px solid #e7e7e7;
   color: #666;
 }
 
 .sidebar:not([class*="bg-"]) {
-  background: #eee;
-  border-right: 1px solid #f9f9f9;
+  background: #fff;
+  border-right: 1px solid #e7e7e7;
+}
+
+.sidebar:not(.is-open) {
+  display: none;
 }
